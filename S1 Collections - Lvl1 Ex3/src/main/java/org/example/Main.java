@@ -44,7 +44,6 @@ public class Main {
 
                 if (answer.equals(locationHash.get(countryArray.get(n)))){
                     System.out.println("¡Correcte, la capital de "+ countryArray.get(n) + " es " + locationHash.get(countryArray.get(n))+"!\n ");
-
                     correct++;
                 }else{
                     System.out.println(" Incorrecte, la capital de "+ countryArray.get(n) + " es " + locationHash.get(countryArray.get(n))+".\n ");
